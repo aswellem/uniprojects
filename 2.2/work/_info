@@ -1,0 +1,297 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dH:/D2/2.3
+vALU
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 N@>2nET[Zk806jL1>Lonj3
+I=d5:c[>[2UBIL>gOLha5W2
+!s105 alu_sv_unit
+S1
+Z2 dH:/D2/2.2
+w1387279074
+8H:/D2/2.2/cpu/alu.sv
+FH:/D2/2.2/cpu/alu.sv
+Z3 L0 22
+Z4 OL;L;10.6a;65
+!s108 1547824609.000000
+!s107 H:/D2/2.2/cpu/alu.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/alu.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+n@a@l@u
+vbuffer
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ocLY:d3?VB@gcZ8aXggj:0
+IPBSI3VHE5jQWE@4:BiIcZ2
+Z7 !s105 ram_sv_unit
+S1
+R2
+Z8 w1547824603
+Z9 8H:/D2/2.2/cpu/ram.sv
+Z10 FH:/D2/2.2/cpu/ram.sv
+L0 86
+R4
+Z11 !s108 1547824610.000000
+Z12 !s107 H:\D2\2.2\cpu\opcodes.h|H:/D2/2.2/cpu/ram.sv|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/ram.sv|
+!i113 0
+R5
+R6
+vCPU2
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 9gD`Wb0lM<_;b2[Z>z1Y33
+I>AgDlcgbNU=b]WT_IJi8i2
+!s105 CPU2_sv_unit
+S1
+R2
+w1547823717
+8H:/D2/2.2/cpu/CPU2.sv
+FH:/D2/2.2/cpu/CPU2.sv
+L0 24
+R4
+R11
+!s107 H:/D2/2.2/cpu/CPU2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/CPU2.sv|
+!i113 0
+R5
+R6
+n@c@p@u2
+vIR
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 H24zmB<H_S7n4nANg]]MP2
+IhZHORXOOk=F`7GXhPBzDc2
+!s105 ir_sv_unit
+S1
+R2
+w1387279076
+8H:/D2/2.2/cpu/ir.sv
+FH:/D2/2.2/cpu/ir.sv
+R3
+R4
+R11
+!s107 H:/D2/2.2/cpu/ir.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/ir.sv|
+!i113 0
+R5
+R6
+n@i@r
+vPC
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 iV]K4>^hYiD3OBOJA]JH[2
+IIz^N0Mc5eMINi[7cPGTA<0
+!s105 pc_sv_unit
+S1
+R2
+w1387279078
+8H:/D2/2.2/cpu/pc.sv
+FH:/D2/2.2/cpu/pc.sv
+R3
+R4
+R11
+!s107 H:/D2/2.2/cpu/pc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/pc.sv|
+!i113 0
+R5
+R6
+n@p@c
+vRAM
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 eJEVL`46j_hnSJiE]iUId0
+Il;32L=A1O]FoZm620GFZ12
+R7
+S1
+R2
+R8
+R9
+R10
+Z14 FH:\D2\2.2\cpu\opcodes.h
+L0 23
+R4
+R11
+R12
+R13
+!i113 0
+R5
+R6
+n@r@a@m
+vregister
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 m5PN5@`GPI1a^D3^RbO6b3
+IzMM^=WoQ9`XPk460L1ndH2
+R7
+S1
+R2
+R8
+R9
+R10
+L0 59
+R4
+R11
+R12
+R13
+!i113 0
+R5
+R6
+vROM
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 i_[@nM31H7l[HeenH4@mO3
+I=2CaY]cRAJ91P_^Y[FB[:1
+!s105 rom_sv_unit
+S1
+R2
+w1420542054
+8H:/D2/2.2/cpu/rom.sv
+FH:/D2/2.2/cpu/rom.sv
+R14
+R3
+R4
+R11
+!s107 H:\D2\2.2\cpu\opcodes.h|H:/D2/2.2/cpu/rom.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/rom.sv|
+!i113 0
+R5
+R6
+n@r@o@m
+vsequencer
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 YhI;Waj_ZYN9C?[REf3Hi0
+IWYFOm_;@lDG<QG[XIT>[E2
+!s105 sequencer_sv_unit
+S1
+R2
+w1418341032
+8H:/D2/2.2/cpu/sequencer.sv
+FH:/D2/2.2/cpu/sequencer.sv
+R14
+R3
+R4
+R11
+!s107 H:\D2\2.2\cpu\opcodes.h|H:/D2/2.2/cpu/sequencer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/sequencer.sv|
+!i113 0
+R5
+R6
+vsevenseg
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SLh@<:O`30>zSo0dY_9GI2
+IVX5iSFaoh=izeW=C68Y2j2
+!s105 sevenseg_sv_unit
+S1
+R2
+w1513686996
+8H:/D2/2.2/cpu/sevenseg.sv
+FH:/D2/2.2/cpu/sevenseg.sv
+R3
+R4
+Z15 !s108 1547824611.000000
+!s107 H:/D2/2.2/cpu/sevenseg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/sevenseg.sv|
+!i113 0
+R5
+R6
+vswitch
+R0
+!s110 1547824610
+!i10b 1
+!s100 ;M5]D14A`0JloHKgi:Pa[1
+Id_lNFK<KCEmNC3=VA`EBX3
+R1
+R7
+S1
+R2
+R8
+R9
+R10
+L0 109
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R5
+R6
+vTestCPU2
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `AZQdJk@1eAf>nCoH?5Jz2
+IZ8j;R=iJ>X7KYz4ILUEJS3
+!s105 TestCPU2_sv_unit
+S1
+R2
+w1547822172
+8H:/D2/2.2/cpu/TestCPU2.sv
+FH:/D2/2.2/cpu/TestCPU2.sv
+R3
+R4
+R15
+!s107 H:/D2/2.2/cpu/TestCPU2.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|H:/D2/2.2/cpu/TestCPU2.sv|
+!i113 0
+R5
+R6
+n@test@c@p@u2

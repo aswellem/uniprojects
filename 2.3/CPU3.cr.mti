@@ -1,0 +1,30 @@
+H:/D2/cpu/testcpu.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/cpu/testcpu.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module TestCPU
+
+Top level modules:
+	TestCPU
+
+} {} {}} H:/D2/2.3/xoropcode.h {1 {sccom -work work -stats=none H:/D2/2.3/xoropcode.h
+
+} {} {}} H:/D2/2.3/cpu3.sv {0 {vlog -work work -vopt -sv -stats=none H:/D2/2.3/cpu3.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module encryptor
+** Warning: ** while parsing file included at H:/D2/2.3/cpu3.sv(4)
+** at xoropcode.h(1): (vlog-2962) xoropcode.h(1): A non-IEEE 1800-2012-compliant identifier was used to define a macro: '@'.
+** Warning: ** while parsing file included at H:/D2/2.3/cpu3.sv(4)
+** at xoropcode.h(28): (vlog-2962) xoropcode.h(28): A non-IEEE 1800-2012-compliant identifier was used to define a macro: '['.
+** Warning: ** while parsing file included at H:/D2/2.3/cpu3.sv(4)
+** at xoropcode.h(29): (vlog-2962) xoropcode.h(29): A non-IEEE 1800-2012-compliant identifier was used to define a macro: '/'.
+** Warning: ** while parsing file included at H:/D2/2.3/cpu3.sv(4)
+** at xoropcode.h(30): (vlog-2962) xoropcode.h(30): A non-IEEE 1800-2012-compliant identifier was used to define a macro: ']'.
+** Warning: ** while parsing file included at H:/D2/2.3/cpu3.sv(4)
+** at xoropcode.h(31): (vlog-2962) xoropcode.h(31): A non-IEEE 1800-2012-compliant identifier was used to define a macro: '.'.
+** Warning: H:/D2/2.3/cpu3.sv(5): (vlog-2962) H:/D2/2.3/cpu3.sv(5): A non-IEEE 1800-2012-compliant identifier was used to define a macro: '['.
+** Warning: H:/D2/2.3/cpu3.sv(5): (vlog-2263) Redefinition of macro: '[' (previously defined near xoropcode.h(28), old value '5'b11011', new value '4:0] key 5'b10101;') .
+** Warning: H:/D2/2.3/cpu3.sv(8): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: @.
+** Error: (vlog-13069) H:/D2/2.3/cpu3.sv(8): near ";": syntax error, unexpected ';'.
+** Warning: H:/D2/2.3/cpu3.sv(11): (vlog-2638) Bad name or identifier in Verilog compiler directive.  The following text was found where a compiler directive name or macro name was expected.: @.
+** Error: (vlog-13069) H:/D2/2.3/cpu3.sv(11): near ";": syntax error, unexpected ';'.
+
+} {17.0 18.0 19.0 20.0} {}}

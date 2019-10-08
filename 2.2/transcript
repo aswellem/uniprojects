@@ -1,0 +1,83 @@
+# Compile of alu.sv was successful.
+# Compile of CPU2.sv was successful.
+# Compile of ir.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of sequencer.sv was successful.
+# Compile of sevenseg.sv was successful.
+# Compile of TestCPU2.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -novopt work.TestCPU2
+# vsim -novopt work.TestCPU2 
+# Start time: 22:28:45 on Jan 17,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing H:/D2/2.2/work.TestCPU2
+# Loading sv_std.std
+# Loading work.TestCPU2
+# Refreshing H:/D2/2.2/work.CPU2
+# Loading work.CPU2
+# Refreshing H:/D2/2.2/work.sequencer
+# Loading work.sequencer
+# Refreshing H:/D2/2.2/work.IR
+# Loading work.IR
+# Refreshing H:/D2/2.2/work.PC
+# Loading work.PC
+# Refreshing H:/D2/2.2/work.ALU
+# Loading work.ALU
+# Refreshing H:/D2/2.2/work.RAM
+# Loading work.RAM
+# Refreshing H:/D2/2.2/work.ROM
+# Loading work.ROM
+# Refreshing H:/D2/2.2/work.sevenseg
+# Loading work.sevenseg
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in TestCPU2 for port 'disp2'.
+#    Time: 0 ns  Iteration: 0  Instance: /TestCPU2/c1 File: H:/D2/2.2/cpu/CPU2.sv
+# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in TestCPU2 for port 'disp3'.
+#    Time: 0 ns  Iteration: 0  Instance: /TestCPU2/c1 File: H:/D2/2.2/cpu/CPU2.sv
+# ** Warning: (vsim-3017) H:/D2/2.2/cpu/TestCPU2.sv(30): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /TestCPU2/c1 File: H:/D2/2.2/cpu/CPU2.sv
+# ** Warning: (vsim-3722) H:/D2/2.2/cpu/TestCPU2.sv(30): [TFMPC] - Missing connection for port 'disp2'.
+# ** Warning: (vsim-3722) H:/D2/2.2/cpu/TestCPU2.sv(30): [TFMPC] - Missing connection for port 'disp3'.
+# Error loading design
+# End time: 22:28:47 on Jan 17,2019, Elapsed time: 0:00:02
+# Errors: 2, Warnings: 4
+# Compile of alu.sv was successful.
+# Compile of CPU2.sv was successful.
+# Compile of ir.sv was successful.
+# Compile of pc.sv was successful.
+# Compile of ram.sv was successful.
+# Compile of rom.sv was successful.
+# Compile of sequencer.sv was successful.
+# Compile of sevenseg.sv was successful.
+# Compile of TestCPU2.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -novopt work.TestCPU2
+# vsim -novopt work.TestCPU2 
+# Start time: 22:29:19 on Jan 17,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing H:/D2/2.2/work.TestCPU2
+# Loading sv_std.std
+# Loading work.TestCPU2
+# Refreshing H:/D2/2.2/work.CPU2
+# Loading work.CPU2
+# Refreshing H:/D2/2.2/work.sequencer
+# Loading work.sequencer
+# Refreshing H:/D2/2.2/work.IR
+# Loading work.IR
+# Refreshing H:/D2/2.2/work.PC
+# Loading work.PC
+# Refreshing H:/D2/2.2/work.ALU
+# Loading work.ALU
+# Refreshing H:/D2/2.2/work.RAM
+# Loading work.RAM
+# Refreshing H:/D2/2.2/work.ROM
+# Loading work.ROM
+# Refreshing H:/D2/2.2/work.sevenseg
+# Loading work.sevenseg
+add wave -position end sim:/TestCPU2/c1/*
+# Break key hit
+run -all
+add wave -position end sim:/TestCPU2/c1/r1/*
+add wave -position end sim:/TestCPU2/c1/d0/*
+add wave -position end sim:/TestCPU2/c1/d1/*

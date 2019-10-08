@@ -1,0 +1,57 @@
+H:/D2/2.2/cpu/ir.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/ir.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module IR
+
+Top level modules:
+	IR
+
+} {} {}} H:/D2/2.2/cpu/pc.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/pc.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} H:/D2/2.2/cpu/sequencer.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/sequencer.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module sequencer
+
+Top level modules:
+	sequencer
+
+} {} {}} H:/D2/2.2/cpu/sevenseg.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/sevenseg.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module sevenseg
+
+Top level modules:
+	sevenseg
+
+} {} {}} H:/D2/2.2/cpu/CPU2.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/CPU2.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module CPU2
+
+Top level modules:
+	CPU2
+
+} {} {}} H:/D2/2.2/cpu/TestCPU2.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/TestCPU2.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module TestCPU2
+
+Top level modules:
+	TestCPU2
+
+} {} {}} H:/D2/2.2/cpu/alu.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/alu.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} H:/D2/2.2/cpu/rom.sv {1 {vlog -work work -vopt -sv -stats=none H:/D2/2.2/cpu/rom.sv
+Model Technology ModelSim SE-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}}
