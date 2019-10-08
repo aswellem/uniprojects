@@ -1,0 +1,63 @@
+# =======================================
+# D1 Progress Form for Monday
+# =======================================
+
+
+#
+ 
+#Number of windings on your coil:
+
+
+:Turns:
+
+60
+
+
+# Measured Inductance [uH]:
+
+#
+
+:L: 
+
+196mH
+
+
+# Did you mange to complete your circuit? (yes/no)
+#
+
+:Circuit: 
+
+YES
+
+
+# Current limit setting for 15V output [A]
+
+#
+:I lim: 0.510A
+
+# Voltage divider ouput at current limit on oscilloscope [V] 
+
+#
+
+:V adc: 
+
+2.6V
+
+
+# ADC Reading from IlMatto at current limit [V] 
+
+:#
+
+:ADC: 
+
+778
+
+# Your impression of the first day in ONE word:
+
+#
+
+:In a word: 
+
+
+
+calm

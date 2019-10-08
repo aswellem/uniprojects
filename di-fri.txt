@@ -1,0 +1,62 @@
+# =======================================
+# D1 Progress Form for Friday
+# =======================================
+
+# Can your power supply settle on a desired setpoint? (yes/no) 
+#
+:Reach setpoint:
+Yes
+
+
+# Without external load what is the maximal peak-to-peak variation (e.g. oscillation)? [mV]:
+#
+:Steady state var: 
+I dont know
+
+# If you change the setpoint how long does it take to reach the new output value? 
+# State start voltage, end voltage and time:
+#
+:Step start:2
+:Step end:5
+:Step time: 4.03s
+
+
+# If you apply an external load can your power supply reestablish the desired output voltage?
+# State Set point (V), Load applied (Ohm), time to reach new voltage (within 5% band), voltage under load  
+#
+:Setpoint:2
+:Load:100ohms
+:Time to settle:~2s 
+:V under load:1.873V
+
+
+
+# If you remove the load, how far does the output exceed the setpoint [V]?  
+# State Set point (V), Load applied (Ohm), maximum voltage reached [V] 
+#
+:Setpoint over shoot:3V
+:Load removed:100ohms
+:Peak voltage:5V
+
+
+
+# What control method did you use for the above? (e.g., Incremental, proportional, PID) 
+#
+:Final control:
+Incremental
+
+# Over what setpoint range is your power supply usable [V]? (e.g., 4 or 3-8)  
+#
+:Setpoint range:
+3-8V
+
+# What current limit did you use for the setpoint (range) in the previous question [A]? 
+#
+:I lim:
+510mA
+
+
+# Your impression of the final day in ONE word:
+#
+:In a word: 
+KMT

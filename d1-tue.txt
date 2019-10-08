@@ -1,0 +1,34 @@
+
+# =======================================
+# D1 Progress Form for Tuesday
+# =======================================
+
+# Was you circuit working as expected? (yes/no)
+#
+:Circuit ok: 
+Yes
+
+# Did you manage to write the code for the controller? (yes/no)
+#
+:Controller code: 
+Yes
+
+# What set-point did you use for testing? [V]
+#
+:Set point: 
+5V
+
+# Did your software stabilize the output when you changed the load? (yes/no)
+#
+:Stabilized: 
+
+Yes
+# What type of control did you implement? (e.g., BangBang, PI, PID)
+#
+:Method: 
+PI
+
+# Your impression of the second day in ONE word:
+#
+:In a word: 
+College_dropout

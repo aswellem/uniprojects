@@ -1,0 +1,44 @@
+# =======================================
+# D1 Progress Form for Thursday
+# =======================================
+
+# Does your host program show the current output voltage? (yes/no)
+#
+:Host show Vout:
+Yes
+
+# Can your own host program set the output voltage? (yes/no)
+#
+:Host set Vout:
+Yes
+
+# Does your host program check whether the voltage entered is valid? (yes/no)
+#
+:Validation:
+Yes
+
+# Does your host program indicate if the setpoint is not reached? (yes/no)
+#
+:Host V error:
+Yes
+
+# Does your IlMatto indicate (e.g., LED) if the setpoint is not reached? (yes/no)
+#
+:IlMatto V error:
+No, setpoint is always reached 
+
+# Does your host program show if the serial connection is broken? (yes/no)
+#
+:Host Com error:
+Yes
+
+
+# What other functionality does you interface have? (Please List keywords in one long line, e.g.: shows graph, shows efficiency, plays sound on error)
+#
+:Host specials:
+If no input is detected within 5 seconds an option to cancel is displayed.
+
+
+# Your impression of the fourth day in ONE word:
+#
+:In a word:

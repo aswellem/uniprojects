@@ -1,0 +1,43 @@
+# =======================================
+# D1 Progress Form for Wednesday
+# =======================================
+
+# Which Operating System is running on the host? (Windows 8.1, Ubuntu, ...)
+#
+:OS:
+Windows 10
+
+# Can you communicate FROM a terminal TO IlMatto (yes/no)
+#
+:Terminal to IlMatto:
+Yes
+
+# Can you receive data from IlMatto with YOUR OWN HOST PROGRAM? (yes/no)
+#
+:Host RX:
+Yes
+
+# Do you have two-way communication between IlMatto and YOUR OWN HOST PROGRAM  (yes/no)
+#
+:Host RXTX:
+Yes
+
+# What serial library did you use? (e.g., William, Teunis, arduino-serial)
+#
+:Library:
+William
+
+# Can you communicate floating point numbers from the host to IlMatto? (yes/no)
+#
+:Float host TX:
+No
+
+# Does communication block other tasks (e.g. controlling the voltage) ? (yes/no)
+#
+:Blocking:
+No
+
+# Your impression of the third day in ONE word:
+#
+:In a word:
+nice
